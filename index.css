@@ -1,0 +1,72 @@
+.container-bg {
+    background: #F2F2F2;
+}
+
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, p, .p, a, .a {
+    /* margin-bottom: 0.5rem; */
+    font-family: ‘Oswald’, sans-serif;
+    /* font-weight: 500;
+    line-height: 1.2;
+    color: inherit; */
+    }
+
+.text-cblack {
+    color: #333333;
+}
+
+.text-cwhite {
+    color: #f7f7f7;
+}
+
+.text-cgrey {
+    color: #999999;
+}
+
+.text-corange {
+    color: #C35A00;
+}
+
+.text-cgreen {
+    color: #008e00;
+}
+
+.text-cblue {
+    color: #011F5B
+}
+
+.bg-lightblue{
+    background: rgb(67, 91, 138);
+}
+
+.bg-darkgrey{
+    background: #999999;
+}
+
+.courseworks{
+    line-height: 1.8;
+    text-align: center;
+}
+
+.contact{
+    line-height: 1.8;
+    text-align: left;
+}
+
+.publications{
+    line-height: 1.5;
+    text-align: left;
+}
+
+.overview{
+    line-height: 1.4;
+    text-align: left;
+}
+
+.bar{
+    min-height: 8px;
+}
+
+.my_list{
+    list-style-type: none;
+}
