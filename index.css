@@ -70,3 +70,12 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, p, .p, a, .a {
 .my_list{
     list-style-type: none;
 }
+
+.vertical_center{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.technical-background{
+    background-color:#82AFD3;
+}
