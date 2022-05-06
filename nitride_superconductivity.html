@@ -27,9 +27,9 @@
                     <ul class="dropdown-menu bg-lightblue">
                         <li><a class="dropdown-item text-cwhite" href="overview.html">Overview</a></li>
                         <li><a class="dropdown-item text-cwhite" href="tight_binding.html">Oxide
-                                    Tight-Binding</a></li>
+                                Tight-Binding</a></li>
                         <li><a class="dropdown-item text-cwhite" href="nitride_superconductivity.html"><b>Nitride
-                                Superconductivity</b></a></li>
+                                    Superconductivity</b></a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
@@ -74,7 +74,14 @@
             <div class="col-sm-2 text-cblack"></div>
             <div class="col-sm-4 text-cblack vertical_center">
                 <p class="h5 overview">
-                    I need more time working on the narration. I feel that the narration for the tight-binding project is still too hard to follow. I need some feedback about the tight-binding page before continue writing this.
+                    <em>I feel that the current narration is still too hard for an introductory-level audience. This
+                        might be modified in the future.</em>
+                </p>
+                <p class="h5 overview">
+                    Superconductivity allows for current flow without resistance at low temperatures, making it
+                    attractive for energy-efficient computing and power transmissions. What's more, this mysterious
+                    phenomenon originates entirely from the quantum-mechanical interactions between the electrons and
+                    the crystal. The quantum nature allows for quantum computers made with superconductors.
                 </p>
             </div>
             <div class="col-sm-4 text-cblack">
@@ -89,8 +96,37 @@
             </div>
             <div class="col-sm-4 text-cblack vertical_center">
                 <p class="h5 overview">
-
+                    This project investigates the integration of nitride superconductors (NbN, TiN) with nitride
+                    semiconductors (GaN, AlN). With a crystal growing technique called molecular beam epitaxy (MBE), we
+                    are able to lay superconductors and semiconductors on top of each other with "atomically-clean"
+                    interfaces: atomic bondings are exactly matched at the interfaces. MBE has enabled us to integrate
+                    semiconductor transistors on top of NbN superconductor and observe interesting effects.
                 </p>
+            </div>
+        </div>
+
+        <div class="row ml-5 mt-5">
+            <div class="col-sm-2 text-cblack"></div>
+            <div class="col-sm-8 text-cblack">
+                <p class="h4 overview">
+                    <b>NbN/AlN/NbN Josephson Junctions:</b>
+                </p>
+            </div>
+        </div>
+
+        <div class="row ml-5 mt-2">
+            <div class="col-sm-2 text-cblack"></div>
+            <div class="col-sm-4 text-cblack vertical_center">
+                <p class="h5 overview">
+                    Currently, we are working on a device called the Josephson junctions. It consists of two layers of
+                    superconductor (NbN) sandwiching a very thin layer (~1 nm, around 8 atoms) of insulator (AlN).
+                    Because AlN is very thin, quantum tunneling can happen between the two NbN layers, creating many
+                    interesting effects. Josephson junctions play important role in metrology, precision sensing,
+                    energy-efficient computers, as well as quantum computers.
+                </p>
+            </div>
+            <div class="col-sm-4 text-cblack">
+                <img src="img/jj_device.png" class="img-fluid w-75" alt="Josephson junctions">
             </div>
         </div>
     </div>
@@ -100,7 +136,7 @@
             <div class="col-sm-2 text-cwhite"></div>
             <div class="col-sm-8 text-cwhite">
                 <h2>
-                    <br/>Technical Details - Josephson Junctions Fabrication Process
+                    <br />Technical Details - Josephson Junctions Fabrication Process
                 </h2>
                 <img src="img/purple_bar.png" class="img-fluid bar" alt="bar">
             </div>
@@ -110,25 +146,28 @@
             <div class="col-sm-2 text-cwhite"></div>
             <div class="col-sm-8 text-cwhite vertical_center">
                 <p class="h5 overview">
-
+                    The fabrication of the NbN/AlN/NbN Josephson junctions is a top-down process as follows.
                 </p>
-
-            </div>
-        </div>
-
-        <div class="row ml-5 mt-5">
-            <div class="col-sm-2 text-cwhite"></div>
-            <div class="col-sm-8 text-cwhite">
+                <ul class="h5 overview list-group-numbered">
+                    <li>Growth of the NbN/AlN/NbN stack</li>
+                    <li>Mesa device isolation</li>
+                    <li>Etch the top layer to define the device geometry</li>
+                    <li>Deposit SiO2 for electric isolation</li>
+                    <li>Etch SiO2 to expose the top / bottom NbN</li>
+                    <li>Contact formation</li>
+                </ul>
+                <p class="h5 overview">
+                    Currently, we are experiencing significant contact resistance and potential leakage in the oxide,
+                    and we are still working on it.
+                </p>
                 <img src="img/jj_process.png" class="img-fluid float-center" alt="Josephson junctions process flow">
                 <p class="h5 overview">
-                    <br/> 
+                    <br />
                 </p>
             </div>
         </div>
-
-
     </div>
-
+    <!-- 
     <div class="container-fluid">
         <div class="row ml-5 mt-5">
             <div class="col-sm-2 text-cblack"></div>
@@ -192,7 +231,7 @@
 
 
     </div>
-    
+     -->
 </body>
 
 </html>
